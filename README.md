@@ -1,6 +1,6 @@
 # Make Do & Blend
 
-A recipe discovery app that matches what's in your kitchen to recipes worth making. Type in your ingredients, apply optional filters, and find something to cook — or hit "Surprise Me" and let fate decide.
+A recipe discovery app that matches what's in your kitchen to recipes worth making. Type in your ingredients, apply optional filters, and find something to cook (or hit "Surprise Me" and let fate decide!)
 
 Built with Next.js 15, React 19, and TypeScript.
 
