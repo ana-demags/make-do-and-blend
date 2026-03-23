@@ -37,7 +37,7 @@ export interface Recipe {
   missedIngredients: number;
   likes: number;
   sourceUrl: string;
-  source?: string; // e.g., "Spoonacular", "TheMealDB"
+  source: string; // e.g., "Spoonacular", "TheMealDB"
 }
 
 // Extended ingredient for full recipe details

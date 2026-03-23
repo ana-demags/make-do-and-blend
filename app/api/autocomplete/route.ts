@@ -15,14 +15,15 @@ async function getIngredientList(): Promise<string[]> {
   }
 
   const data = await response.json();
-  cachedIngredients = (data.meals || []).map(
+  const ingredients: string[] = (data.meals || []).map(
     (item: { strIngredient: string }) => {
       const name = item.strIngredient.toLowerCase();
       return name.charAt(0).toUpperCase() + name.slice(1);
     }
   );
+  cachedIngredients = ingredients;
 
-  return cachedIngredients;
+  return ingredients;
 }
 
 export async function GET(request: NextRequest) {
