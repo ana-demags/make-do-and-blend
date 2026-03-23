@@ -322,7 +322,7 @@ export default function Home() {
         <h1 className="text-6xl text-left mb-6 text-foreground" style={{ fontFamily: 'Basteleur, serif' }}>
         Make Do & Blend
         </h1>
-        <p className="text-xl text-left mb-12 text-foreground">It's time to make something. Before you give up on that lonely zucchini, let's find it some friends.</p>
+        <p className="text-xl text-left mb-12 text-foreground">It&apos;s time to make something. Before you give up on that lonely zucchini, let&apos;s find it some friends.</p>
 
         {hasActiveFilters && (
           <div className="mb-10">
@@ -626,7 +626,7 @@ export default function Home() {
                   What are we<br />feeling today?
                 </h2>
                 <p className="text-lg text-foreground max-w-lg mx-auto">
-                  Expand a little bit on what's in your kitchen and pantry, and we'll get something cookin' for you.
+                  Expand a little bit on what&apos;s in your kitchen and pantry, and we&apos;ll get something cookin&apos; for you.
                 </p>
               </div>
             )}
