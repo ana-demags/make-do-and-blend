@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:velvetyne.fr)",
+      "WebFetch(domain:www.figma.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
